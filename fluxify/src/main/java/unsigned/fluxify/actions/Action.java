@@ -2,6 +2,7 @@ package unsigned.fluxify.actions;
 
 import java.util.Map;
 
+import unsigned.fluxify.R;
 import unsigned.fluxify.stores.StoreObject;
 
 /**
@@ -14,6 +15,8 @@ public class Action {
     private final StoreObject payload;
 
     public Action(String type, StoreObject payload) {
+        // if is in debug mode we will print some debug
+
         if(type == null || type.isEmpty()) {
             throw new IllegalArgumentException("Action need a type");
         }
