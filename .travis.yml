@@ -5,7 +5,8 @@ android:
     # use the latest revision of Android SDK Tools
     - tools
     - build-tools-23.0.2
-    
+    - extra-android-support
+   
 
     # The SDK version used to compile your project
     - android-23
@@ -14,5 +15,12 @@ before_install:
 after_success:
   - bash <(curl -s https://codecov.io/bash)
 
+before_cache:
+  - rm -f $HOME/.gradle/caches/modules-2/modules-2.lock
+cache:
+  directories:
+    - $HOME/.gradle/caches/
+    - $HOME/.gradle/wrapper/
+    
 notifications:
   email: false
