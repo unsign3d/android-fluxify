@@ -23,4 +23,6 @@ public class TestDispatcher extends AbstractDispatcher {
         dispatcher.dispatch("loltest", null);
 
     }
+
+
 }
