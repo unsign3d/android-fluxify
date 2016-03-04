@@ -51,7 +51,7 @@ public abstract class AbstractDispatcher {
             throw new IllegalArgumentException("Dispatcher needs a type");
         }
 
-        if(payloads.length == 0) {
+        if(payloads == null || payloads.length == 0) {
             throw new IllegalArgumentException("Dispatcher needs a payload");
         }
 
