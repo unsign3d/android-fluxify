@@ -22,4 +22,4 @@ Special thanks
 State of work
 -------------
 
-Not yet documented or usable, if you want to start feel free to look at the example app
+Not yet documented or usable (we have a tutorial in our repo), if you want to start feel free to look at the example app
