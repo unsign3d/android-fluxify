@@ -10,8 +10,9 @@ The spirit of the fluxify lib is to have the bare minimun library in order to do
 -	Components or something that handles components
 -	A standard way to call your Actions, this library is agnostic, but you will need to call it as a String
 
-What you will have is:* An angine to quickly create stores, actions and dispatchers
+What you will have is:
 
+-	An angine to quickly create stores, actions and dispatchers
 -	You have basically all the flexibility to implement your own flux implementation in the way you think best handles your needs, for example you can have a single dispatcher like the demo app or you can have multiple dispatchers, that will be handled in a good way
 
 How to use it
