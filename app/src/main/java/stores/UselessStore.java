@@ -1,7 +1,7 @@
 package stores;
 
-import com.squareup.otto.Subscribe;
 
+import org.greenrobot.eventbus.Subscribe;
 
 import unsigned.fluxify.actions.Action;
 import unsigned.fluxify.dispatchers.AbstractDispatcher;

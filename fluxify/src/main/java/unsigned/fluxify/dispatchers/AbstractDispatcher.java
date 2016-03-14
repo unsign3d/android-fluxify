@@ -1,7 +1,8 @@
 package unsigned.fluxify.dispatchers;
 
 
-import com.squareup.otto.Bus;
+
+import org.greenrobot.eventbus.EventBus;
 
 import java.util.AbstractMap;
 
@@ -18,11 +19,11 @@ import unsigned.fluxify.stores.StoreObject;
  */
 public abstract class AbstractDispatcher {
 
-    private final Bus bus;
+    private final EventBus bus;
 
 
     public AbstractDispatcher() {
-        bus = new Bus();
+        bus = new EventBus();
     }
 
     /**
