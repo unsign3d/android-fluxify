@@ -21,6 +21,9 @@ public abstract class AbstractDispatcher {
 
     private final EventBus bus;
 
+    public EventBus getBus(){
+        return bus;
+    }
 
     public AbstractDispatcher() {
         bus = new EventBus();
