@@ -46,7 +46,7 @@ public abstract class AbstractStore {
 
     public abstract void onAction(Action action);
 
-    public class StoreChangeEvent{}
+    public static abstract class StoreChangeEvent{}
 
 
 
